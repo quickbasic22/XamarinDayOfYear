@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDayOfYear.Views.DayOfYear">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#2196F3" Padding="5" CornerRadius="0">
+                <Label Text="Day Of Year" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </Frame>
+            <Label x:Name="ResultDayOfWeek" Text="" FontSize="Large" />
+            <Label x:Name="ResultDayOfYear" Text="" FontSize="Large" />
+            <Label x:Name="ResultWeekNumber" Text="" FontSize="Large" />
+            <Label x:Name="ResultDaysLeftInYear" Text="" FontSize="Large" />
+            <Button x:Name="Calculate" Text="Calculate" Clicked="Calculate_Clicked" />
+            <Line X1="0" Y1="50" X2="400" Y2="50" Stroke="DarkBlue" StrokeThickness="10" />
+            <Label Text="Use Current Date" TextColor="Blue" FontSize="Large" />
+            <CheckBox x:Name="UseCurrentDateCheckBox" IsChecked="True" >
+            </CheckBox>
+            <Entry x:Name="CurrentDate" Text="" Placeholder="Year-Month-Day" FontSize="Large" />
+            
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
