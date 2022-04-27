@@ -1,6 +1,6 @@
 # XamarinDayOfYear
 
-<Title>Displays infomation about current or specified date</Title>
+<title>Displays infomation about current or specified date</title>
 
 <h3>displays current or specified Day of Week</h3>
 <h3>displays current or specified Day of Year</h3>
